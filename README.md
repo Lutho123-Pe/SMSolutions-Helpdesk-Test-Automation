@@ -73,3 +73,13 @@ src/test/java/com/smsolutions/ApiTests/
 ## Engineering notes
 
 The API tests use environment-driven configuration, explicit HTTP status assertions, structured JSON assertions, isolated test data for registration, and a dedicated Maven/TestNG execution profile. Debug logging is opt-in so credentials and response bodies are not written to normal CI output.
+
+## Manual testing deliverables
+
+The [`manual-testing/`](manual-testing/) directory contains the planning, execution, and defect-documentation artifacts for the same SM Solutions Helpdesk project:
+
+- [`Test-Plan.pdf`](manual-testing/Test-Plan.pdf) — testing objectives, scope, strategy, environment, test data, and defect-reporting process.
+- [`Test-Cases.xlsx`](manual-testing/Test-Cases.xlsx) — manual, automated, and API test-case matrices.
+- [`Bug-Report.pdf`](manual-testing/Bug-Report.pdf) — exploratory-testing defects with reproduction steps, severity, priority, expected results, actual results, and evidence.
+
+These manual artifacts complement the automated UI and REST API coverage in this repository.
