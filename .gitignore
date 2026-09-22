@@ -1,0 +1,21 @@
+# Maven and generated output
+target/
+*.class
+
+# Test reports and screenshots
+*.html
+*.png
+surefire-reports/
+test-output/
+extent-reports/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Local configuration and secrets
+.env
+.env.*
+*.properties
+!src/test/resources/**/*.properties

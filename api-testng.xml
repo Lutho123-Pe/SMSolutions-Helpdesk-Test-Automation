@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SMSolutions API Test Suite" verbose="1">
+    <test name="API Tests">
+        <classes>
+            <class name="com.smsolutions.ApiTests.AuthenticationApiTests"/>
+            <class name="com.smsolutions.ApiTests.ApiRegistrationTests"/>
+            <class name="com.smsolutions.ApiTests.DashboardApiTests"/>
+            <class name="com.smsolutions.ApiTests.NegativeApiTests"/>
+            <class name="com.smsolutions.ApiTests.SecurityApiTests"/>
+        </classes>
+    </test>
+</suite>
